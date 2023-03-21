@@ -1,37 +1,26 @@
-import React, { useState, useEffect } from 'react';
+import "simple-reveal/index.css";
 
+import { SimpleReveal, useSimpleReveal } from "simple-reveal";
 
-function FadeInSection(props) {
-  const [isVisible, setVisible] = useState(false);
-  const domRef = React.useRef();
+export default function Test() {
+  const { ref, cn } = useSimpleReveal();
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => setVisible(entry.isIntersecting));
-    });
-    observer.observe(domRef.current);
-  }, []);
-
-  return (
-    <div
-      className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
-      ref={domRef}
-    >
-      {props.children}
-    </div>
-  );
-}
-
-function Test() {
   return (
     <div>
-      <FadeInSection>
-        <h1>Welcome to my website</h1>
-        <p>This is some content that will fade in when the user scrolls to it.</p>
-        
-      </FadeInSection>
+      <h1 ref={ref} className={cn()}>
+        Title
+      </h1>
+      {new Array(100).fill("").map((_, i) => (
+        <SimpleReveal
+          key={i}
+          delay={i * 100}
+          render={({ ref, cn }) => (
+            <h1 ref={ref} className={cn()}>
+              Hello SimpleReveal!
+            </h1>
+          )}
+        />
+      ))}
     </div>
   );
 }
-
-export default Test;
