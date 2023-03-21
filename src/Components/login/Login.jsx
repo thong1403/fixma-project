@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../img/Module Website (2).png";
 import "./Login.css";
+import { Link } from "react-router-dom";
 
 export default function Login() {
   return (
@@ -67,7 +68,7 @@ export default function Login() {
       </div>
       <div className="log-in-now-2">
         <p>Chưa có tài khoản?</p>
-        <p className="title-login-nows">Đăng ký ngay</p>
+        <p className="title-login-nows"><Link to="/register">Đăng ký ngay</Link> </p>
       </div>
     </div>
   );

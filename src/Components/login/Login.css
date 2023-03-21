@@ -2,6 +2,10 @@
     color: #FFCD29;
 
 }
+a {
+    text-decoration: none;
+    color: inherit;
+  }
 .agent-login-button{
     margin-top: 8%;
     width: 30%;

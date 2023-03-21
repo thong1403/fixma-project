@@ -1,6 +1,7 @@
 import React from "react";
 import "./Register.css";
 import logo from "../img/Module Website (2).png";
+import { Link } from "react-router-dom";
 
 export default function Register() {
   return (
@@ -75,7 +76,7 @@ export default function Register() {
       </div>
       <div className="log-in-now">
         <p>Đã có tài khoản</p>
-        <p className="title-login-nows">Đăng nhập ngay</p>
+        <p className="title-login-nows"><Link to="/login">Đăng nhập ngay</Link> </p>
       </div>
     </div>
   );
