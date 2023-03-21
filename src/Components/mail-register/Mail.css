@@ -1,0 +1,29 @@
+.Sign-Up-Success{
+    font-size: 25px;
+    
+}
+.logo-mail{
+    width: 25%;
+    margin-top: -5%;
+}
+.title-mail{
+    margin-top: -7%;
+    margin-bottom: 5%;
+    color: white;
+}
+.container-success-content{
+    padding: 2%;
+    width: 40%;
+    background-color: #B3B3B3;
+    margin: auto;
+}
+.content-title-mail{
+    margin-bottom: 2%;
+}
+.learn-project{
+    color: #896900;
+}
+.container-mail{
+    background-color: #1E1E1E;
+    padding-bottom: 10%;
+}

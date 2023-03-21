@@ -1,0 +1,19 @@
+.container-footer{
+    display: flex;
+    background-color: #1E1E1E;
+    color: white;
+    margin-top: 5%;
+}
+.logo-footer{
+    width: 25%;
+    margin-top: -5%;
+}
+.information-for-each-area{
+    text-align: left;
+    margin: 2%;
+    
+}
+.information-for-each-area h5{
+ color: #FFCD29;
+    margin-bottom: 20px;
+}

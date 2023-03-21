@@ -1,0 +1,48 @@
+.avatar{
+
+   width: 10%;
+    background-color: #757575;
+    margin: auto;
+    height: 150px;
+    font-size: 20px;
+    padding-top: 4%;
+    color: white;
+
+    
+}
+.container-blog{
+    background-color: #1E1E1E;
+    height: 800px;
+}
+.agent-name{
+    font-size: 30px;
+    color: #FFCD29;
+    
+}
+.agent-introduction{
+    color: white;
+    text-align: left;
+    margin-left: 10%;
+}
+.agent-introduction p{
+    color: #FFCD29;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.agent-introduction input{
+    width: 90%;
+    height: 40px;
+   background-color: #757575;
+   color: black;
+   padding-left: 1%;
+   
+}
+.agent-introduction input:focus{
+    outline: none;
+}
+.news-board{
+    width: 90%;
+    padding: 1%;
+    background-color: #757575;
+    text-align: center;
+}

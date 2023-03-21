@@ -1,0 +1,83 @@
+.title-login{
+    color: #FFCD29;
+
+}
+.agent-login-button{
+    margin-top: 8%;
+    width: 30%;
+    height: 40px;
+    background-color: #FFCD29;
+    border: none;
+}
+.container-registration-frame-login{
+    height: 800px;
+}
+.container-login-2{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.input-information{
+    margin: 2%;
+}
+.agent-login-button-login{
+    margin-top: 13%;
+    margin-left: 65%;
+    width: 30%;
+    height: 40px;
+    background-color: #FFCD29;
+    border: none;
+}
+.agent-login-button-login-one{
+    margin-top: 13%;
+    margin-left: 8%;
+    width: 30%;
+    height: 40px;
+    background-color: #FFCD29;
+    border: none;
+}
+.container-registration-frame-login{
+    background-color: #1E1E1E;
+    color: white;
+    margin-top: -5%;
+}
+.container-login{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-login-framer-1{
+    width: 40%;
+    color: #FFCD29;
+    font-size: 20px;
+    height: 100%;
+}
+.container-login-framer-2{
+    width: 40%;
+    color: #FFCD29;
+    font-size: 20px;
+    height: 100%;
+}
+.log-in-now-2{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn-button-login-1{
+    width: 30%;
+    margin-left: 5%;
+    height: 40px;
+    background-color: #FFCD29;
+    border: none;
+    margin-top: 7%;
+}
+.btn-button-login-2{
+    width: 30%;
+    margin-left: 65%;
+    height: 40px;
+    background-color: #FFCD29;
+    border: none;
+    margin-top: 7%;
+}
+.login-title-content-1{
+    margin-top: -5%;
+}

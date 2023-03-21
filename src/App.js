@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import News from './Components/news/News';
+import HomePage from './Components/homepage/HomePage';
+// import Navbar from './Components/navbar/Navbar.jsx';
+import MorePosts from './Components/morePosts/MorePosts';
+import Register from './Components/register/Register';
+import { Routes, Route } from 'react-router-dom'; 
+import Login from './Components/login/Login';
+import Blog from './Components/blog/Blog';
+import BlogSale from './Components/blogSale/BlogSale';
+import Footer from './Components/footer/Footer';
+import Mail from './Components/mail-register/Mail';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path='/home' element={<HomePage/>}/>
+        <Route path='/news' element={<News/>}/>
+        <Route path='/moreposts' element={<MorePosts/>}/>
+        <Route path='/register' element={<Register/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/blog' element={<Blog/>}/>
+        <Route path='/blog/sale' element={<BlogSale/>}/>
+        <Route path='/mail' element={<Mail/>}/>
+      </Routes>
+      <Footer/>
     </div>
   );
 }

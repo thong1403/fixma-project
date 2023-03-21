@@ -1,0 +1,94 @@
+.blog-sale{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    background-color: #B3B3B3;
+    /* height: 100%; */
+}
+.container-blog-sale{
+    background-color: #1E1E1E;
+    height: 900px;;
+}
+/* body{
+    background-color: #1E1E1E;
+} */
+.img-logo{
+    width: 20%;
+    margin-top: -5%;
+}
+.invite-friends{
+    margin-top: 3%;
+    color: #FFCD29;
+    font-size: 20px;
+}
+.name-blog-sale-1{
+    text-align: left;
+    width: 20%;
+    padding: 2%;
+ 
+}
+.name-blog-sale-1 h2{
+ color: #B78C00;
+}
+.avata-blog-sale{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 15%;
+    margin-left: 5%;
+    background-color: #757575;
+}
+.avata-blog-sale span{
+    color: white;
+}
+.name-blog-sale-2 p{
+ font-size: 20px;
+ color: white;
+ margin: 2%;
+}
+.name-blog-sale-1 p{
+color:#B78C00 ;
+font-size: 16px;
+margin-top: 2%;
+margin-left: 5%;
+}
+.name-blog-sale-2{
+    width: 80%;
+    text-align: left;
+}
+.name-blog-sale-2 input{
+    height: 35px;
+    width: 80%;
+    background-color: #757575;
+    text-align: center;
+    border: none;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+.name-blog-sale-2 input:focus{
+    outline: none;
+}
+.btn-share{
+   width: 10%;
+   height: 30px;
+   background-color: #FFCD29;
+}
+.group-zalo span{
+    background-color: #757575;
+    width: 20px;
+}
+.logo-zalo{
+    width: 30%;
+    border-radius: 990px;
+   
+}
+.group-zalo{
+    color: white;
+    width: 10%;
+    margin-top: 5%;
+}
+.container-group{
+    display: flex;
+    justify-content: space-evenly;
+}
