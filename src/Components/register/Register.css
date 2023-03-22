@@ -59,6 +59,14 @@
     height: 40px;
     background-color: #FFCD29;
     border: none;
+
+
+    overflow: auto;
+    background: linear-gradient(315deg, #CBB260 3%, #c7ba43 38%, #e8d5ad 68%, #E0D070 98%);
+
+    animation: gradient 5s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
 }
 .container-register h4{
     font-size: 20px;
@@ -72,6 +80,13 @@
     height: 40px;
     background-color: #FFCD29;
     border: none;
+
+    overflow: auto;
+    background: linear-gradient(315deg, #CBB260 3%, #c7ba43 38%, #e8d5ad 68%, #E0D070 98%);
+
+    animation: gradient 5s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
 }
 
 .container-registration-frame h3{

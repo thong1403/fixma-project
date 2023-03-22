@@ -73,6 +73,13 @@ a {
     background-color: #FFCD29;
     border: none;
     margin-top: 7%;
+
+    overflow: auto;
+    background: linear-gradient(315deg, #CBB260 3%, #c7ba43 38%, #e8d5ad 68%, #E0D070 98%);
+
+    animation: gradient 5s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
 }
 .btn-button-login-2{
     width: 30%;
@@ -81,7 +88,17 @@ a {
     background-color: #FFCD29;
     border: none;
     margin-top: 7%;
+
+
+
+    overflow: auto;
+    background: linear-gradient(315deg, #CBB260 3%, #c7ba43 38%, #e8d5ad 68%, #E0D070 98%);
+
+    animation: gradient 5s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
 }
 .login-title-content-1{
     margin-top: -5%;
+    
 }
