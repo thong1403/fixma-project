@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "../navbar/Navbar";
 import "./Homepage.css";
 import "simple-reveal/index.css";
+import imageTitle from "../../img/992087.jpg";
 
 import { SimpleReveal, useSimpleReveal } from "simple-reveal";
 
@@ -22,28 +23,33 @@ export default function App() {
             <>
               <div ref={ref} className={cn()}>
                 <div className="container-homepage-top">
-                  <h4>ĐẦU TƯ KHÔNG BIÊN GIỚI</h4>
-                  <p>
-                    <b>Xu hướng mới của những nhà đầu tư tiên phong</b>{" "}
-                    <i class="fa-solid fa-arrow-right"></i>
-                  </p>
+                  <img src={imageTitle} alt="" className="img-title" />
+                  <div className="container-img">
+                    <h4 className="neon" data-text="Neon" contenteditable>
+                      ĐẦU TƯ KHÔNG BIÊN GIỚI <br />
+                      <b>Xu hướng mới của những nhà đầu tư tiên phong</b>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </h4>
+                  </div>
                 </div>
               </div>
               <div ref={ref} className={cn()}>
-                <div className="container-content-home">
+                <div className="container-content-home one">
                   <div className="content-container">
                     <h5 className="title-content">Định vị thương hiệu</h5>
-                    <p>
-                      Global Living là thương hiệu hàng đầu tại Việt Nam trong
-                      lĩnh vực tư vấn và phát triển bất động sản cao cấp. Với uy
-                      tín và kinh nghiệm, chúng tôi đã và đang mang tới cho
-                      khách hàng những giải pháp đầu tư bất động sản tối ưu tại
-                      cả trong và ngoài nước, kết hợp với các dịch vụ hỗ trợ
-                      định cư độc đáo, giúp khách hàng tiếp cận những đặc quyền
-                      của công dân toàn cầu. Chúng tôi luôn cam kết mang đến sự
-                      hài lòng và thành công cho khách hàng trong mỗi giao dịch
-                      và dự án.
-                    </p>
+                   
+                      <p>
+                        Global Living là thương hiệu hàng đầu tại Việt Nam trong
+                        lĩnh vực tư vấn và phát triển bất động sản cao cấp. Với
+                        uy tín và kinh nghiệm, chúng tôi đã và đang mang tới cho
+                        khách hàng những giải pháp đầu tư bất động sản tối ưu
+                        tại cả trong và ngoài nước, kết hợp với các dịch vụ hỗ
+                        trợ định cư độc đáo, giúp khách hàng tiếp cận những đặc
+                        quyền của công dân toàn cầu. Chúng tôi luôn cam kết mang
+                        đến sự hài lòng và thành công cho khách hàng trong mỗi
+                        giao dịch và dự án.
+                      </p>
+               
                   </div>
                 </div>
               </div>
@@ -59,7 +65,7 @@ export default function App() {
           render={({ ref, cn }) => (
             <>
               <div ref={ref} className={cn()}>
-                <div className="container-content-home">
+                <div className="container-content-home two-container">
                   <div className="content-container">
                     <h5 className="title-content">Tầm nhìn</h5>
                     <p>
@@ -87,7 +93,7 @@ export default function App() {
           render={({ ref, cn }) => (
             <>
               <div ref={ref} className={cn()}>
-                <div className="container-content-home">
+                <div className="container-content-home for-container">
                   <div className="content-container">
                     <h5 className="title-content">Sứ mệnh</h5>
                     <p>
@@ -164,19 +170,21 @@ export default function App() {
           delay={i * 1}
           render={({ ref, cn }) => (
             <>
-              <div className="container-content-home">
-                <div className="content-container-button">
-                  <h5 className="title-content">
-                    Hệ thông phân phối độc quyền
-                  </h5>
-                  <p>
-                    Tham gia ngay để trở thành Đại lý/Cộng tác viên độc quyền và
-                    nhận những thông tin, tài liệu đắt giá nhất về thị trường
-                    đầu tư bất động sản quốc tế.
-                  </p>
-                  <p className="register-now">
-                    Đăng ký ngay <i class="fa-solid fa-arrow-right"></i>
-                  </p>
+              <div ref={ref} className={cn()}>
+                <div className="container-content-home buttom-container-content">
+                  <div className="content-container-button">
+                    <h5 className="title-content">
+                      Hệ thông phân phối độc quyền
+                    </h5>
+                    <p>
+                      Tham gia ngay để trở thành Đại lý/Cộng tác viên độc quyền
+                      và nhận những thông tin, tài liệu đắt giá nhất về thị
+                      trường đầu tư bất động sản quốc tế.
+                    </p>
+                    <p className="register-now">
+                      Đăng ký ngay <i class="fa-solid fa-arrow-right"></i>
+                    </p>
+                  </div>
                 </div>
               </div>
             </>

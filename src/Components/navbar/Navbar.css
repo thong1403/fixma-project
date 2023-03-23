@@ -26,7 +26,7 @@
 }
 .container-img-logo{  
 
-    background-color: #1E1E1E;
+    background: linear-gradient(45deg, #17192A 0%, #1E2136 28.89%, #24263B 62%);
 }
 .container-button{
     display: flex;

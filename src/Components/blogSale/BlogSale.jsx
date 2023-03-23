@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "../img/Module Website (2).png";
+import logo from "../../img/Module Website (2).png";
 import "./BlogSale.css";
-import logoZalo from "../img/Logo-Zalo-Arc.webp"
-import logoFacebook from "../img/Facebook_Logo_(2019).png"
+import logoZalo from "../../img/Logo-Zalo-Arc.webp"
+import logoFacebook from "../../img/Facebook_Logo_(2019).png"
 
 export default function BlogSale() {
   return (

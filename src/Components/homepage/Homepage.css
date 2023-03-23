@@ -1,12 +1,26 @@
 .container-homepage-top{
-    height: 200px;
+    height: 450px;
     color: white;
-    background-color: #1E1E1E;
-    margin-top: 5%;
+    background-image: url("../../img/992087.jpg");
+    margin-top: 1px;
     text-align: left;
-    padding-left: 5%;
-    padding-top: 7%;
+
     font-size: 20px;
+    object-fit: cover;
+    position: relative;
+    
+}
+.img-title{
+ 
+  width: 100%;
+  height: 100%;
+  
+}
+.container-img{
+  position: absolute;
+  top: 30%;
+  font-size: 25px;
+  padding-left: 5%;
 }
 .container-content-home-below{
     color: white;
@@ -18,6 +32,7 @@
     font-size: 20px;
     height: 700px;
 }
+
 .detail{
     padding: 2%;
     background-color: #757575;
@@ -96,10 +111,13 @@
 .title-content{
     color: #FFCD29;
     margin-bottom: 2%;
-    font-size: 20px;
+    font-size: 30px;
+    width: 500px;
 }
 .content-container{
-    width: 50%;
+    width: 100%;
+    display: flex;
+
    
 }
 .real-estate{
@@ -112,6 +130,7 @@
     margin-top: 5%;
     color: black;
 }
+
 .btn-money{
     width: 100%;
     height: 30px;
@@ -138,3 +157,362 @@
 }
 
 
+/* .container-homepage-top:hover {
+    background-color: transparent;
+    background-image: url('');
+  }
+  
+  .container-homepage-top:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: opacity 0.5s ease;
+    opacity: 0;
+  } */
+
+
+  
+  /* .container-homepage-top:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../public/img/368323.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+  } */
+  
+  /* .container-homepage-top:hover::before,
+  .container-homepage-top:hover::after {
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  .container-homepage-top:hover::before {
+    opacity: 1;
+    transition-delay: 0.2s;
+  }
+  
+  .container-homepage-top:hover::after {
+    opacity: 0.5;
+    transition-delay: 0.4s;
+  }
+   */
+
+
+
+
+
+
+
+  .one:hover {
+    background-color: transparent;
+  }
+  
+  .one:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: opacity 0.5s ease;
+    opacity: 0;
+  }
+
+
+  .one:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../public/img/368323.jpg");
+    /* background-color: red; */
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+  }
+  
+  .one:hover::before,
+  .one:hover::after {
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  .one:hover::before {
+    opacity: 1;
+    transition-delay: 0.2s;
+  }
+  
+  .one:hover::after {
+    opacity: 0.5;
+    transition-delay: 0.4s;
+  }
+  
+
+
+
+
+
+
+  .two-container:hover {
+    background-color: transparent;
+  }
+  
+  .two-container:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: opacity 0.5s ease;
+    opacity: 0;
+  }
+
+
+  .two-container:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../public/img/459131.jpg");
+    /* background-color: red; */
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+  }
+  
+  .two-container:hover::before,
+  .two-container:hover::after {
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  .two-container:hover::before {
+    opacity: 1;
+    transition-delay: 0.2s;
+  }
+  
+  .two-container:hover::after {
+    opacity: 0.5;
+    transition-delay: 0.4s;
+  }
+  
+
+
+
+
+
+
+  .for-container:hover {
+    background-color: transparent;
+  }
+  
+  .for-container:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: opacity 0.5s ease;
+    opacity: 0;
+  }
+
+
+  .for-container:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../public/img/488146.jpg");
+    /* background-color: red; */
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+  }
+  
+  .for-container:hover::before,
+  .for-container:hover::after {
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  .for-container:hover::before {
+    opacity: 1;
+    transition-delay: 0.2s;
+  }
+  
+  .for-container:hover::after {
+    opacity: 0.5;
+    transition-delay: 0.4s;
+  }
+ 
+
+
+
+
+  
+  .container-content-home-below:hover {
+    background-color: transparent;
+
+  }
+  
+  .container-content-home-below:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: opacity 0.5s ease;
+    opacity: 0;
+  }
+
+
+ 
+
+
+
+
+
+
+
+  .container-content-home-below:hover {
+    background-color: transparent;
+ 
+  }
+  
+  .container-content-home-below:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: opacity 0.5s ease;
+    opacity: 0;
+  }
+
+
+  .container-content-home-below:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../public/img/540264.jpg");
+    /* background-color: red; */
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+  }
+  
+  .container-content-home-below:hover::before,
+  .container-content-home-below:hover::after {
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  .container-content-home-below:hover::before {
+    opacity: 1;
+    transition-delay: 0.2s;
+  }
+  
+  .container-content-home-below:hover::after {
+    opacity: 0.5;
+    transition-delay: 0.4s;
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .buttom-container-content:hover {
+    background-color: transparent;
+  
+  }
+  
+  .buttom-container-content:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: opacity 0.5s ease;
+    opacity: 0;
+  }
+
+
+  .buttom-container-content:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../public/img/772318.jpg");
+    /* background-color: red; */
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+  }
+  
+  .buttom-container-content:hover::before,
+  .buttom-container-content:hover::after {
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  .buttom-container-content:hover::before {
+    opacity: 1;
+    transition-delay: 0.2s;
+  }
+  
+  .buttom-container-content:hover::after {
+    opacity: 0.5;
+    transition-delay: 0.4s;
+  }
+ 
+
+
+
+
+  

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../img/Module Website (2).png";
+import logo from "../../img/Module Website (2).png";
 import "./Mail.css"
 
 export default function Mail() {
